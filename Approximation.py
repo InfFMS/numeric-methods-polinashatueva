@@ -22,7 +22,7 @@ y = x**3 -x +1
 
 # Создание подграфиков
 
-fig, axs = plt.subplots()
+
 plt.plot(x, y, label="график x3 – x +1 = y", color="blue")
 plt.grid(True)
 # Настройка расстояний
@@ -35,10 +35,10 @@ def f(x):
 print(s(-2,0,f,q))
 
 
-x1 = np.linspace(-3, 3, 400)
-y1 = x**3 - x**2 - 9*x + 9
+x1 = np.linspace(-20, 15, 400)
+y1 = x1**3 - x1**2 - 9*x1 + 9
 
-fig1, axs1= plt.subplots()
+
 plt.plot(x1, y1, label="y1 = x**3 - x**2 - 9*x + 9 ", color="blue")
 plt.grid(True)
 # Настройка расстояний
